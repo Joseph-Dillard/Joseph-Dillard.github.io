@@ -15,6 +15,7 @@ body {
     opacity: 0;
     transform: scale(0.8);
     animation: fadeInScale 3s ease-out forwards;
+    color: rgba(73, 120, 60, 0.8);
 }
 
 @keyframes fadeInScale {
@@ -32,7 +33,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(73, 120, 60, 0.8);
     text-align: center;
     padding: 10px 0;
     transform: translateY(-100%);
