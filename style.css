@@ -1,25 +1,32 @@
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   padding: 28px 16px;
 }
 
-.intro-blob,
-.profile-pic,
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1rem;
+  margin-bottom: 16px;
+}
+.intro-blob{
+    max-width: 920px;
+    margin: 0 auto;
+}
+.profile-pic{
+    display: flex;
+    justify-content: center;
+    margin: 24px auto;
+}
 .content-section {
   max-width: 920px;
   margin: 0 auto;
@@ -30,16 +37,6 @@ body {
   border-radius: 18px;
   text-align: center;
   margin-bottom: 18px;
-}
-
-.intro-blob h1 {
-  font-size: 2.6rem;
-  letter-spacing: -0.5px;
-  margin-bottom: 8px;
-}
-
-.intro-blob p {
-  font-size: 1.05rem;
 }
 
 .profile-pic {
@@ -55,30 +52,23 @@ body {
   border-radius: 50%;
 }
 
-
-
 .content-section {
   display: flex;
   flex-direction: column;
   gap: 18px;
 }
 
-.about-section,
-.likes-section,
+.about-section{
+    padding: 22px;
+    border-radius: 18px;
+}
+.likes-section{
+    padding: 22px;
+    border-radius: 18px;
+}
 .email-form {
   padding: 22px;
   border-radius: 18px;
-}
-
-.about-section h2,
-.likes-section h2,
-.email-form h2 {
-  font-size: 1.55rem;
-  margin-bottom: 10px;
-}
-
-.about-section p {
-  margin-top: 6px;
 }
 
 .likes-section ul {
