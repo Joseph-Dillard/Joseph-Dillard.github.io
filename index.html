@@ -1,50 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joseph Dillard</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joseph Dillard</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="intro-blob">
-        <h1>Joseph Dillard</h1>
-        <p>Welcome to my personal website! Here you can find information about me and how to contact me.</p>
-    </div>
 
-    <div class="profile-pic">
-        <img src="IMG_2401.JPG" alt="Photo of Joseph Dillard" class="profile-img">
-    </div>
+  <header class="intro-blob">
+    <h1>Joseph Dillard</h1>
+    <p>Welcome to my personal website! Here you can find information about me and how to contact me.</p>
+  </header>
 
-    <div class = "content-section">
-        <div class="about-section">
-            <h2>About Me</h2>
-            <p>Howdy! My name is Joseph Dillard, and I’m a <strong>Senior Computer Science major</strong> at Texas A&M University with a <em>strong interest in cybersecurity, software development, and network security.</em> I’m passionate about building secure and efficient systems that balance innovation, usability, and ethical responsibility.
-            I currently serve as the Standards Officer for <a href="https://www.gentstamu.com/">Gents TAMU</a>. I’m also part of the Craig and Galen Brown Engineering Honors Program, the Aggie Coding Club, and the A&M Cybersecurity Club. These experiences have strengthened my technical, analytical, and leadership skills through collaboration, research, and real-world problem-solving.</p>
-        </div>
-        <div class="likes-section">
-            <h2>What I Like</h2>
-            <ul>
-                <li>Cybersecurity & digital forensics</li>
-                <li>Full-stack development</li>
-                <li>Music, fitness, and design</li>
-            </ul>
-        </div>
-        <div class="email-form">
-            <h2>If you'd like to connect please reach out via email</h2>
+  <div class="profile-pic">
+    <img src="IMG_2401.JPG" alt="Photo of Joseph Dillard" class="profile-img">
+  </div>
 
-            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-            Name:<br>
-            <input type="text" name="name"><br>
-            E-mail:<br>
-            <input type="text" name="mail"><br>
-            Comment:<br>
-            <input type="text" name="comment" size="50"><br><br>
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
-            </form>
-        </div>
-    </div>
-    <script src="script.js"></script>
+  <main class="content-section">
+
+    <section class="about-section">
+      <h2>About Me</h2>
+      <p>
+        Howdy! My name is Joseph Dillard, and I’m a <strong>Senior Computer Science major</strong>
+        at Texas A&amp;M University with a <em>strong interest in cybersecurity, software development,
+        and network security</em>.
+        I’m passionate about building secure and efficient systems that balance innovation, usability,
+        and ethical responsibility.
+      </p>
+
+      <p>
+        I currently serve as the Standards Officer for
+        <a href="https://www.gentstamu.com/" target="_blank" rel="noopener noreferrer">Gents TAMU</a>.
+        I’m also part of the Craig and Galen Brown Engineering Honors Program, the Aggie Coding Club,
+        and the A&amp;M Cybersecurity Club.
+      </p>
+    </section>
+
+    <section class="likes-section">
+      <h2>What I Like</h2>
+      <ul>
+        <li>Cybersecurity &amp; digital forensics</li>
+        <li>Full-stack development</li>
+        <li>Music, fitness, and design</li>
+      </ul>
+    </section>
+
+    <section class="email-form">
+      <h2>If you'd like to connect, please reach out via email</h2>
+
+      <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+        <label>
+          Name:<br>
+          <input type="text" name="name">
+        </label>
+        <br>
+
+        <label>
+          E-mail:<br>
+          <input type="text" name="mail">
+        </label>
+        <br>
+
+        <label>
+          Comment:<br>
+          <input type="text" name="comment" size="50">
+        </label>
+        <br><br>
+
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+      </form>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
