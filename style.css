@@ -43,7 +43,7 @@ body {
 .profile-pic {
   display: flex;
   justify-content: center;
-  margin-bottom: 26px;
+  margin: 24px auto;
 }
 
 .profile-img {
@@ -52,6 +52,7 @@ body {
   object-fit: cover;
   border-radius: 50%;
 }
+
 
 
 .content-section {
