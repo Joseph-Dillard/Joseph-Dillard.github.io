@@ -57,16 +57,11 @@ p {
     flex-direction: column;
     gap: 18px;
 }
-.content-section h2 {
-  margin-left: 0;
-}
 
 .content-section p{
     margin-left: 0;
 }
-.content-section ul {
-  margin-left: 18px;
-}
+
 .about-section{
     padding: 22px;
     border-radius: 18px;
